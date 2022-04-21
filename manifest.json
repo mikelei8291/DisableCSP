@@ -1,0 +1,17 @@
+{
+    "name": "Disable CSP",
+    "author": "Mike Lei",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "Remove the CSP (Content-Security-Policy) header from HTTP response headers in Firefox",
+    "homepage_url": "https://github.com/mikelei8291/DisableCSP",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
